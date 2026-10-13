@@ -15,7 +15,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     kb = [[InlineKeyboardButton("✅ Ҳа", callback_data="yes"),
            InlineKeyboardButton("❌ Не", callback_data="no")]]
     await update.message.reply_text(
-        "Салом! Ба боти мо хуш омадед 👋\n\nШумо галочкаи Instagram даркор доред?",
+        "Салом! Ба боти мо хуш омадед 👋\n\nБа Шумо галочкаи Instagram даркор Ҳаст?",
         reply_markup=InlineKeyboardMarkup(kb))
 
 async def buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
